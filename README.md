@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/therealmal/lab06.svg)](https://travis-ci.com/therealmal/lab06)
 
 ## TP Labs 06
-`therealmal | Малютин Роман ИУ8-12`
+`therealmal | Малютин Роман ИУ8-12`  
 Повторяя команды из туториала, заменяя описание солвера и конфиг, получаем такой CMakeLists:
 
 ```
