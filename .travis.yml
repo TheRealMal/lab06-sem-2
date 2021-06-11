@@ -16,7 +16,7 @@ jobs:
 
 script:
 - source ./script
-- cd /home/travis/build/therealmal/lab06/solver_application/_build
+- cd /home/travis/build/TheRealMal/lab06/solver_application/_build
 - cpack -G DEB
     
 
@@ -32,5 +32,5 @@ deploy:
   provider: releases
   api_key:
     secure: "BoCfsNT3PnRhwO3TcoH+u5jLoxwU0Ou5uV8rXtkAbSmGgyKQeVtFdesuPia13WERI0Tw5YDfBfoDE/m/NsYFo2LSuJ++Rd4MRbAUATvQtSUF8ElC2cQBVIASFQ/qTGfJLuTNC0hmA7QwiDGohlfx0SKbSAyjswfQtCAUbi9YHV4BYetUGb3woGnZH6taCaxe3oLhqakYW0uT5PaIDyngT1vcIMtgSQRTwZIcb+ZSVAjpaV+hNyMauckih5geooPUopEKFKmqI9AXaFNuqbydkQkT11Bj1gmyK6mpDnl7sheUY4LtfJJzVePDy3/4ocq4V7Rcsfxkw4PfTooWI9gu9RZIQkXCAB11chP8Nz+/iEuJWQRCD7uwvhhpYdhpWrQumS5S7N5H5dMrMPG8j0Du6g7TIZ2zEIiLQuQj/uJFLhsfPcaXxRKsKu5mCNR7agNIfQBTQj8CYRVczWxPuJynZ6iDUx7RvrW8hjspOXJtDia6tX6poMmtC7nZBnKFfu7ImeO87zc+9TSPcAYFQ6kLQRnh3HVIdXoDQpoEiZ3JwFYmctDcyajHQBVLiXQ5YJwbe6xRgL2bhTO8PrXgJVXQy3HU/NdXJiG95592eNJXyeht88I/CkB/rtfURHKKygGMl3U7NatCQNv0q6f0WjewooVH+fDe0zRa3XPx7H0zefQ="
-  file: "/home/travis/build/therealmal/lab06/solver_application/_build/solver-0.1.0.0-Linux.deb"
+  file: "/home/travis/build/TheRealMal/lab06/solver_application/_build/solver-0.1.0.0-Linux.deb"
   skip_cleanup: true
