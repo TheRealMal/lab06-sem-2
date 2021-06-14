@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.4) # Test 1
-project(formatter)
+project(formatter) # Test 2
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
